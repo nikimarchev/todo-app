@@ -38,7 +38,7 @@
 .container {
   list-style: none;
   padding-top: 20px;
-  height:50%; 
+  height:55%; 
   margin-left: 20%;
   margin-right: 20%;
   overflow:hidden; 
@@ -51,8 +51,8 @@
   font-size: 35px;
   color: white;
   border-style:solid;
-  border-color: rgb(0, 129, 151);
-  background-color: rgb(0, 129, 151);
+  border-color: rgb(80, 80, 80);
+  background-color: rgb(80, 80, 80);
   margin-left: 5%;
   margin-right: 10%;
   margin-bottom: 20px;

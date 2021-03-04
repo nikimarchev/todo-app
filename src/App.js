@@ -13,6 +13,10 @@ function App() {
     }
   }
 
+  const addItem = (e) => {
+    setInput(e.target.value)
+  }
+
   const removeItem = (item) => {
     setList(items => items.filter(x => x !== item))
   }
@@ -21,7 +25,7 @@ function App() {
     <div className="app">
       <div className="header">TODO LIST</div>
       <div className="body">
-        <input className="input" type="text" value={input} onChange={e => { setInput(e.target.value) }}></input>
+        <input className="input" type="text" value={input} onChange={e => { addItem(e) }}></input>
         <button className="addButton" onClick={addItems}>ADD</button>
       </div>
       <div className="counter">{list.length} TODOS</div>
