@@ -61,6 +61,21 @@
   font-family:Arial, Helvetica, sans-serif;
 }
 
+.executedItem {
+  font-size: 35px;
+  color: white;
+  border-style:solid;
+  border-color: rgb(80, 80, 80);
+  background-color: rgb(80, 80, 80);
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: line-through;
+}
+
 .deleteButton{
   position: absolute;
   left: 68%;
@@ -81,19 +96,4 @@
   height: 30px;
   width: 90 px;
   font-size: large;
-}
-
-.executedItem {
-  font-size: 35px;
-  color: white;
-  border-style:solid;
-  border-color: rgb(0, 129, 151);
-  background-color: rgb(0, 129, 151);
-  margin-left: 5%;
-  margin-right: 10%;
-  margin-bottom: 20px;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  font-family:Arial, Helvetica, sans-serif;
-  text-decoration: line-through;
 }

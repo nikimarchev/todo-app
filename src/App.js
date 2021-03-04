@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from 'axios';
 import './App.css';
 
 function App() {
@@ -6,15 +7,15 @@ function App() {
   const [list, setList] = useState([]);
   const [marked, setMarked] = useState(false);
 
+  const addItem = (e) => {
+    setInput(e.target.value)
+  }
+
   const addItems = () => {
     if (input.length > 0) {
       setList(oldItems => [...oldItems, input]);
       setInput('');
     }
-  }
-
-  const addItem = (e) => {
-    setInput(e.target.value)
   }
 
   const removeItem = (item) => {
