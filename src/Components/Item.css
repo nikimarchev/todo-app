@@ -1,11 +1,14 @@
 .item {
+  display: flex;
+  justify-content: space-around;
   font-size: 35px;
   color: white;
   border-style:solid;
   border-color: rgb(80, 80, 80);
   background-color: rgb(80, 80, 80);
+  border-radius: 10px;
   margin-left: 5%;
-  margin-right: 10%;
+  margin-right: 27%;
   margin-bottom: 20px;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -13,13 +16,16 @@
 }
 
 .executedItem {
+  display: flex;
+  justify-content: space-around;
   font-size: 35px;
   color: white;
   border-style:solid;
   border-color: rgb(80, 80, 80);
   background-color: rgb(80, 80, 80);
+  border-radius: 10px;
   margin-left: 5%;
-  margin-right: 10%;
+  margin-right: 27%;
   margin-bottom: 20px;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -29,20 +35,19 @@
 
 .deleteButton{
   position: absolute;
-  left: 68%;
+  left: 72%;
   border-style: solid;
-  border-radius: 10px;
   border-color: white;
   height: 30px;
   width: 70px;
   font-size: large;
+
 }
 
 .editButton{
   position: absolute;
-  left: 61%;
+  left: 65%;
   border-style: solid;
-  border-radius: 10px;
   border-color: white;
   height: 30px;
   width: 90 px;

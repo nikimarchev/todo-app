@@ -9,7 +9,6 @@ function App() {
   useEffect(() => {
     const jsonList = localStorage.getItem('list');
     const loadedList = JSON.parse(jsonList);
-
     if (loadedList) {
       setList(loadedList)
     }
@@ -19,7 +18,6 @@ function App() {
     const jsonList = JSON.stringify(list);
     localStorage.setItem('list', jsonList)
   }, [list])
-
 
   const addItem = () => {
     const newItem = {
